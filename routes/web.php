@@ -19,4 +19,3 @@ Route::get('/', function () {
 });
 
 Route::get('sms/send', [SmsTwilioController::class, 'sendSms']);
-Route::get('phone-numbers/create', [SmsTwilioController::class, 'addPhoneNumber']);
